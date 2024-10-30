@@ -1,0 +1,56 @@
+ body {
+            background-color: #ccc;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        h1 {
+            text-align: center;
+            color: deeppink;
+        }
+
+        p {
+            text-align: justify;
+            width: fit-content;
+        }
+        .center {
+            width: 30%;
+            justify-content: center;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            
+        }
+        .gamabar{
+            width: auto;
+            height: 100%;
+        }
+        .foto{
+            width: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .foto img{
+            width: 22%;
+            display: flex;
+        }
+        .promo{
+            text-align: center;
+            color: red;
+
+        }
+        .cod{
+            margin: auto;
+            width: 80%;
+        }
+        .cod p{
+            background-color: seagreen;
+            border: 2px dotted red;
+            text-align: center;
+        }
+        #tombol{
+            background-color: aqua;
+            width: 200px;
+            height: 40px;
+        
+        }

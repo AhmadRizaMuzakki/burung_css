@@ -1,0 +1,93 @@
+h1{
+    color: crimson;
+    text-align: center;
+
+}
+.gambar{
+            width: 100%;
+            height: 100%;
+            background-color: #ccc;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+.gambar1{
+    width: 50%;
+}
+#header{
+    background-color: #ccc;
+    height: 125px;
+    padding: 15px;
+}
+#header blockquote{
+    text-align: center;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-around;
+    background-color: #ccc;
+    height: 80px;
+}
+.nav li {
+    list-style: none;
+}
+.nav ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: red;
+    font-weight: bold;
+}
+.isi::first-letter {
+    color: blue;
+    font-size: 40px;
+}
+
+.content{
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: #ccc;
+    padding: 30px;
+    font-family: sans-serif;
+}
+.koleksi {
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #ccc;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* tambahkan gap di container */
+    justify-content: center; /* ubah ke center untuk tampilan yang lebih baik */
+}
+
+.koleksi img {
+    width: 300px; /* tetapkan lebar tetap */
+    height: 300px; /* tetapkan tinggi tetap */
+    object-fit: cover; /* pastikan gambar tidak terdistorsi */
+}
+
+.promo{
+    width: 50%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    background-color: #ccc;
+}
+.sosial{
+    margin-left: 10%;
+    font-size: 25px;
+}
+.sosial li{
+    margin: 10px;
+}
